@@ -1,6 +1,9 @@
 ﻿using ByteBank_ADM.Funcionarios;
+using ByteBank_ADM.Utilitario;
 
 Console.WriteLine("Boas vindas ao ByteBank Administração");
+
+GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
 funcionario joao = new funcionario();
 
@@ -19,3 +22,9 @@ paula.salario = 5000;
 
 Console.WriteLine("Bonificação: " + joao.getBonificacao());
 Console.WriteLine("Bonificação: " + paula.getBonificacao());
+
+gerenciador.registrar(joao);
+gerenciador.registrar(paula);
+Console.WriteLine("Total de bonificação: " + gerenciador.getBonificacao());
+
+

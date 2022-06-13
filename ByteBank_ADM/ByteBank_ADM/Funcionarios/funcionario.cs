@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    internal class funcionario
+    public class funcionario
     {
         //private int _tipo;
         //public funcionario(int _tipo)

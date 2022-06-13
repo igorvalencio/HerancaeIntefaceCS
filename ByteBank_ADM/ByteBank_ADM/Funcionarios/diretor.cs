@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    internal class diretor
+    public class diretor
     {
         public string nome { get; set; }
         public string cpf { get; set; }
