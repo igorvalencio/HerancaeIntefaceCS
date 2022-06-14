@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public class diretor
+    public class diretor:funcionario
     {
-        public string nome { get; set; }
-        public string cpf { get; set; }
-        public double salario { get; set; }
-        public double getBonificacao()
+        public override double getBonificacao()
         {
             return salario;
         }
