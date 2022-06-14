@@ -12,9 +12,13 @@ namespace ByteBank_ADM.Funcionarios
         {
             return salario + base.getBonificacao();
         }
-        public diretor(string cpf): base(cpf)
+        public diretor(string cpf, double salario): base(cpf, salario)
         {
             Console.WriteLine("");
+        }
+        public override void AumentarSalario()
+        {
+            this.salario *= 1.15;
         }
     }
 }
