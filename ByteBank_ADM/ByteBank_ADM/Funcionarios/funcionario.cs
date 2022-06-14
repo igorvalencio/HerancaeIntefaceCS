@@ -15,9 +15,24 @@ namespace ByteBank_ADM.Funcionarios
         //}
 
         public string nome { get; set; }
-        public string cpf { get; set; }
+        public string cpf { get; private set; }
         public double salario { get; set; }
         public virtual double getBonificacao()
-        {  
-           return salario * 0.10;
-}   }   }
+        {
+            return salario * 0.10;
+        }
+        public static int TotaldeFuncionarios { get; private set; }
+
+        public funcionario(string cpf)
+        {
+            cpf = cpf;
+            TotaldeFuncionarios++;
+        }
+        public void AumentarSalario()
+        {
+            this.salario *= 1.1;
+        }
+
+}    }   
+
+
