@@ -1,4 +1,5 @@
 ﻿using ByteBank_ADM.Funcionarios;
+using ByteBank_ADM.SistemaInterno;
 using ByteBank_ADM.Utilitario;
 
 //Console.WriteLine("Boas vindas ao ByteBank Administração");
@@ -37,34 +38,22 @@ using ByteBank_ADM.Utilitario;
 
 
 
-void CalcularBonificacao()
+void UsarSistema()
 {
-    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+    SistemaInterno sistemaInterno = new SistemaInterno();
 
-    designer joao = new designer("654.321.887-95");
-    joao.nome = "João";
+    diretor roberta = new diretor("258881950-36");
+    roberta.nome = "Roberta";
+    roberta.senha = "123";
 
-    auxiliar paula = new auxiliar("521.658.887-82");
-    paula.nome = "Paula";
+    GerenteDeContas Ursula = new GerenteDeContas("2587451-852");
+    Ursula.nome = "Ursula";
+    Ursula.senha = "321";
 
-    GerenteDeContas Jonatas = new GerenteDeContas("338.521.478-63");
-    Jonatas.nome = "Jonatas";
+    sistemaInterno.Logar(roberta, "123");
+    sistemaInterno.Logar(Ursula, "321");
 
-    diretor Ananias = new diretor("225.145.603-89");
-    Ananias.nome = "Ananias";
-
-    Desenvolvedor jailson = new Desenvolvedor("258.146.328-55");
-    jailson.nome = "Jailson";
-
-    gerenciador.registrar(joao);
-    gerenciador.registrar(paula);
-    gerenciador.registrar(Jonatas);
-    gerenciador.registrar(Ananias);
-    gerenciador.registrar(jailson);
-
-    Console.WriteLine();
 }
-
 
 Console.ReadKey();
 

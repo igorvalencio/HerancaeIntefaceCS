@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public abstract class funcionario
+    public abstract class Funcionarios
     {
 
-        public funcionario(string cpf, double salario)
+        public Funcionarios(string cpf, double salario)
         {
             cpf = cpf;
             salario = salario;
@@ -23,7 +23,7 @@ namespace ByteBank_ADM.Funcionarios
         public abstract void AumentarSalario();
         public abstract double getBonificacao();
 
-
-    }    }   
+      
+}   }   
 
 

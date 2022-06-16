@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public class diretor:funcionario
+    public class diretor:Funcionarios
     {
         public diretor(string cpf) : base(cpf, 5000)
         {
@@ -20,9 +20,15 @@ namespace ByteBank_ADM.Funcionarios
         {
             return salario * 0.5;
         }
-        
-       
-        
+
+        public string senha { get; set; }
+        public bool Autenticar(string senha)
+        {
+            return this.senha == senha;
+        }
+
+
+
     }
 }
     
