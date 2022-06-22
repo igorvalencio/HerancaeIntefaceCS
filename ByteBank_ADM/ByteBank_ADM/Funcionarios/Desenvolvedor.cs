@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public class Desenvolvedor:Funcionarios
+    public class Desenvolvedor:Funcionario
     {
         public Desenvolvedor(string cpf): base (cpf, 3000)
         {

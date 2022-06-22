@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public class designer : Funcionarios
+    public class designer : Funcionario
     {
         public designer(string cpf) : base(cpf, 3000)
         {

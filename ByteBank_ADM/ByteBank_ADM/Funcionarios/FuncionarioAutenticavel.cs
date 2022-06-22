@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public abstract class FuncionarioAutenticavel : Funcionarios, autenticado
+    public abstract class FuncionarioAutenticavel : Funcionario, autenticado
     {
         protected FuncionarioAutenticavel(string cpf, double salario) : base(cpf, salario)
         {
