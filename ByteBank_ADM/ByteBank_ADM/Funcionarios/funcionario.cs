@@ -17,13 +17,21 @@ namespace ByteBank_ADM.Funcionarios
         }
 
         public string nome { get;  set; }
-        public string cpf { get;  set; }
+        public string cpf { get;  private set; }
         public double salario { get;   protected set; }
         public static int TotaldeFuncionarios { get; private set; }
         public abstract void AumentarSalario();
         public abstract double getBonificacao();
+        public string senha { get; set; }
+
+        public bool Autenticar(string senha)
+        {
+            return this.senha == senha;
+        }
 
       
-}   }   
+
+    }
+}   
 
 

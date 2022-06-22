@@ -12,7 +12,7 @@ namespace ByteBank_ADM.Utilitario
         
         private double TotalBonificacao;
 
-        public void registrar(Funcionarios Funcionarios)
+        public void registrar(diretor Funcionarios)
         {
             this.TotalBonificacao += Funcionarios.getBonificacao();
         }

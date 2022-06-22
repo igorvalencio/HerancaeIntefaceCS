@@ -1,6 +1,10 @@
 ﻿using ByteBank_ADM.Funcionarios;
+using ByteBank_ADM.ParceiroComercial;
 using ByteBank_ADM.SistemaInterno;
 using ByteBank_ADM.Utilitario;
+
+//CalcularBonificacao();
+UsarSistema();
 
 //Console.WriteLine("Boas vindas ao ByteBank Administração");
 
@@ -50,8 +54,19 @@ void UsarSistema()
     Ursula.nome = "Ursula";
     Ursula.senha = "321";
 
+    //ParceiroComercial joao = new ParceiroComercial();
+    //joao.senha = "123";
+
+    //sistemaInterno.Logar(pedro, "123");
     sistemaInterno.Logar(roberta, "123");
-    sistemaInterno.Logar(Ursula, "321");
+    sistemaInterno.Logar(Ursula, "123");
+    //sistemaInterno.Logar(joao, "123");
+
+    Funcionarios pedro = new designer("258.635.854-45");
+    pedro.nome = "Pedro";
+    pedro.senha = "123";
+
+
 
 }
 
