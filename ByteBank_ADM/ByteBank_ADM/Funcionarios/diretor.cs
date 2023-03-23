@@ -7,9 +7,18 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public class diretor:FuncionarioAutenticavel
+    public class diretor : Funcionario
     {
-        public diretor(string cpf) : base(cpf, 5000)
+
+        public override double getBonificacao()
+        {
+            return this.salario * 1.10;
+        }
+
+    
+
+
+       /* public diretor(string cpf) : base(cpf, 5000)
         {
             
         }
@@ -26,10 +35,10 @@ namespace ByteBank_ADM.Funcionarios
             throw new NotImplementedException();
         }
 
-        public override double getBonificacao()
+        public  double getBonificacao()
         {
             return salario * 0.5;
-        }
+        }*/
 
        
 

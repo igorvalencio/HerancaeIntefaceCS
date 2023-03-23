@@ -13,3 +13,14 @@ C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteB
 C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.pdb
 C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.genruntimeconfig.cache
 C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ref\ByteBank_ADM.dll
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.Modelos.deps.json
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.Modelos.runtimeconfig.json
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.Modelos.exe
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.SistemaAgencia.deps.json
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.SistemaAgencia.runtimeconfig.json
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.SistemaAgencia.exe
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.Modelos.dll
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.SistemaAgencia.dll
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.Modelos.pdb
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\bin\Debug\net6.0\ByteBank.SistemaAgencia.pdb
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank_ADM\obj\Debug\net6.0\ByteBank_ADM.csproj.CopyComplete

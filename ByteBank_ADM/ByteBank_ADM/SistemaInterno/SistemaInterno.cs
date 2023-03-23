@@ -9,7 +9,7 @@ namespace ByteBank_ADM.SistemaInterno
 {
     public class SistemaInterno
     {
-        public bool Logar(FuncionarioAutenticavel funcionarios, string senha)
+       /* public bool Logar(FuncionarioAutenticavel funcionarios, string senha)
         {
             bool UsuarioAutenticado = funcionarios.Autenticar(senha);
 
@@ -38,8 +38,9 @@ namespace ByteBank_ADM.SistemaInterno
                 Console.WriteLine("Senha incorreta");
                 return false;
             }
+       
         }
-
+       */
        
         
     }

@@ -8,7 +8,7 @@ namespace ByteBank_ADM.Funcionarios
 {
     public class designer : Funcionario
     {
-        public designer(string cpf) : base(cpf, 3000)
+        /*public designer(string cpf) : base(cpf, 3000)
         {
 
         }
@@ -21,5 +21,6 @@ namespace ByteBank_ADM.Funcionarios
         {
             return salario * 0.17;
         }
+        */
     }
 }

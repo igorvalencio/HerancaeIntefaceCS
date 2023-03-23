@@ -3,22 +3,24 @@ using ByteBank_ADM.ParceiroComercial;
 using ByteBank_ADM.SistemaInterno;
 using ByteBank_ADM.Utilitario;
 
-//CalcularBonificacao();
-UsarSistema();
+Funcionario joao = new Funcionario();
+joao.nome = "João";
+joao.cpf = "234523423";
+joao.salario = 2000;
+Console.WriteLine(joao.getBonificacao());
 
-//Console.WriteLine("Boas vindas ao ByteBank Administração");
+diretor paula = new diretor();
+paula.nome = "Paula";
+paula.cpf = "832321151";
+paula.salario = 5000;
+Console.WriteLine(paula.getBonificacao());
 
-//GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+gerenciador.registrar(joao);
+gerenciador.registrar(paula);
+Console.WriteLine(gerenciador.TotalBonificacao);
 
-//funcionario joao = new funcionario("321655645", 2000);
-//joao.nome = "João";
-//Console.WriteLine("Salário João: " + joao.salario);
-//Console.WriteLine("Total de funcionarios: " + funcionario.TotaldeFuncionarios);
 
-//funcionario paula = new diretor("56565665", 5000);
-//paula.nome = "Paula";
-//Console.WriteLine("Salário Paula: " + paula.salario);
-//Console.WriteLine("Total de funcionarios: " + funcionario.TotaldeFuncionarios);0
 
 //funcionario andre = new diretor("5552612", 10000);
 //andre.nome = "André";
@@ -42,22 +44,22 @@ UsarSistema();
 
 
 
-void UsarSistema()
-{
-    SistemaInterno sistemaInterno = new SistemaInterno();
+//void UsarSistema()
+//{
+//    SistemaInterno sistemaInterno = new SistemaInterno();
 
-    diretor roberta = new diretor("258881950-36");
-    roberta.nome = "Roberta";
-    roberta.senha = "123";
+//    diretor roberta = new diretor("258881950-36");
+//    roberta.nome = "Roberta";
+//    roberta.senha = "123";
 
-    GerenteDeContas Ursula = new GerenteDeContas("2587451-852");
-    Ursula.nome = "Ursula";
-    Ursula.senha = "321";
+//    GerenteDeContas Ursula = new GerenteDeContas("2587451-852");
+//    Ursula.nome = "Ursula";
+//    Ursula.senha = "321";
 
-    sistemaInterno.Logar(roberta, "123");
-    sistemaInterno.Logar(Ursula, "321");
-    
-}
+//    sistemaInterno.Logar(roberta, "123");
+//    sistemaInterno.Logar(Ursula, "321");
 
-Console.ReadKey();
+
+
+//Console.ReadKey();
 

@@ -1,0 +1,15 @@
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\bin\Debug\net6.0\ByteBank.Modelos.exe
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\bin\Debug\net6.0\ByteBank.Modelos.deps.json
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\bin\Debug\net6.0\ByteBank.Modelos.runtimeconfig.json
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\bin\Debug\net6.0\ByteBank.Modelos.dll
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\bin\Debug\net6.0\ByteBank.Modelos.pdb
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.csproj.AssemblyReference.cache
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.AssemblyInfoInputs.cache
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.AssemblyInfo.cs
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.dll
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\refint\ByteBank.Modelos.dll
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.pdb
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ByteBank.Modelos.genruntimeconfig.cache
+C:\Users\igorn\OneDrive\Documentos\estudos\HerancaeIntefaceCS\ByteBank_ADM\ByteBank.Modelos\obj\Debug\net6.0\ref\ByteBank.Modelos.dll

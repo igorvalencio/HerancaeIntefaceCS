@@ -8,14 +8,17 @@ namespace ByteBank_ADM.Funcionarios
 {
     public abstract class FuncionarioAutenticavel : Funcionario, autenticado
     {
-        protected FuncionarioAutenticavel(string cpf, double salario) : base(cpf, salario)
+       /* private AutenticacaoHelper _autenticavelhelper = new AutenticacaoHelper();
+        protected FuncionarioAutenticavel(string cpf, double salario)
         {
 
         }
         public string senha { get; set; }
         public bool autenticar(string senha)
         {
-            return senha == senha;
+            return AutenticacaoHelper.compararSenhas(senha, senha);
+
         }
+        */
     }
 }

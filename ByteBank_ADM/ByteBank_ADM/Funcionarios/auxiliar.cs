@@ -8,7 +8,7 @@ namespace ByteBank_ADM.Funcionarios
 {
     public class auxiliar : Funcionario
     {
-        public auxiliar(string cpf) : base(cpf, 2000)
+       /* public auxiliar(string cpf) : base(cpf, 2000)
         {
 
         }
@@ -21,5 +21,6 @@ namespace ByteBank_ADM.Funcionarios
         {
             return salario * 0.25;
         }
+        */
     }
 }

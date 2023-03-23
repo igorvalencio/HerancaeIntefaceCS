@@ -9,11 +9,12 @@ namespace ByteBank_ADM.ParceiroComercial
 {
     public abstract  class ParceiroComercial: IAutenticavel
     {
+        private AutenticacaoHelper _autenticacaohelper = new AutenticacaoHelper();
         public string senha { get; set; }
 
         public bool Autenticar(string senha)
         {
-            return this.senha == senha;
+            return _autenticacaohelper.CompararSenhas(senha, senha);
         }
     }
 }

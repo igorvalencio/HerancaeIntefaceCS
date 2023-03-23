@@ -8,7 +8,7 @@ namespace ByteBank_ADM.Funcionarios
 {
     public class Desenvolvedor:Funcionario
     {
-        public Desenvolvedor(string cpf): base (cpf, 3000)
+       /* public Desenvolvedor(string cpf): base (cpf, 3000)
         {
 
         }
@@ -20,5 +20,7 @@ namespace ByteBank_ADM.Funcionarios
         {
             return salario * 0.1;
         }
+       */ 
+         
     }
 }

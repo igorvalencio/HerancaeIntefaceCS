@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ByteBank.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        }
+      },
+      "ByteBank.SistemaAgencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ByteBank.Modelos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ByteBank.SistemaAgencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ByteBank.SistemaAgencia.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ByteBank.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../ByteBank.Modelos/ByteBank.Modelos.csproj",
+      "msbuildProject": "../ByteBank.Modelos/ByteBank.Modelos.csproj"
+    },
+    "ByteBank.SistemaAgencia/1.0.0": {
+      "type": "project",
+      "path": "../ByteBank.SistemaAgencia/ByteBank.SistemaAgencia.csproj",
+      "msbuildProject": "../ByteBank.SistemaAgencia/ByteBank.SistemaAgencia.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "ByteBank.Modelos >= 1.0.0",
+      "ByteBank.SistemaAgencia >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\igorn\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\igorn\\OneDrive\\Documentos\\estudos\\HerancaeIntefaceCS\\ByteBank_ADM\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+              "projectPath": "C:\\Users\\igorn\\OneDrive\\Documentos\\estudos\\HerancaeIntefaceCS\\ByteBank_ADM\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
+            },
+            "C:\\Users\\igorn\\OneDrive\\Documentos\\estudos\\HerancaeIntefaceCS\\ByteBank_ADM\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj": {
+              "projectPath": "C:\\Users\\igorn\\OneDrive\\Documentos\\estudos\\HerancaeIntefaceCS\\ByteBank_ADM\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -51,7 +96,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

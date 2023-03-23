@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank_ADM", "ByteBank_ADM\ByteBank_ADM.csproj", "{6EAE6B2E-7131-41B7-A709-4DF12E973B36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ByteBank_ADM", "ByteBank_ADM\ByteBank_ADM.csproj", "{6EAE6B2E-7131-41B7-A709-4DF12E973B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.SistemaAgencia", "ByteBank.SistemaAgencia\ByteBank.SistemaAgencia.csproj", "{DFA63142-0156-4F3F-A111-E71062C42A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.Modelos", "ByteBank.Modelos\ByteBank.Modelos.csproj", "{6D100797-F354-4581-B304-1EB727C0EFE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6EAE6B2E-7131-41B7-A709-4DF12E973B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EAE6B2E-7131-41B7-A709-4DF12E973B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EAE6B2E-7131-41B7-A709-4DF12E973B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA63142-0156-4F3F-A111-E71062C42A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA63142-0156-4F3F-A111-E71062C42A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA63142-0156-4F3F-A111-E71062C42A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA63142-0156-4F3F-A111-E71062C42A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D100797-F354-4581-B304-1EB727C0EFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D100797-F354-4581-B304-1EB727C0EFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D100797-F354-4581-B304-1EB727C0EFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D100797-F354-4581-B304-1EB727C0EFE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
