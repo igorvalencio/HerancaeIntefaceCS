@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public abstract class FuncionarioAutenticavel : Funcionario, autenticado
+    /*public abstract class FuncionarioAutenticavel : Funcionario, autenticado
     {
-       /* private AutenticacaoHelper _autenticavelhelper = new AutenticacaoHelper();
+        private AutenticacaoHelper _autenticavelhelper = new AutenticacaoHelper();
         protected FuncionarioAutenticavel(string cpf, double salario)
         {
 
@@ -20,5 +20,4 @@ namespace ByteBank_ADM.Funcionarios
 
         }
         */
-    }
 }

@@ -14,33 +14,37 @@ namespace ByteBank_ADM.Funcionarios
         {
             return this.salario * 1.10;
         }
-
-    
-
-
-       /* public diretor(string cpf) : base(cpf, 5000)
+        public diretor(string cpf) : base(cpf)
         {
             
         }
 
-        public string senha { get; set; }
 
-        public override void AumentarSalario()
-        {
-            this.salario *= 1.15;
-        }
 
-        public bool Autenticar(string senha)
-        {
-            throw new NotImplementedException();
-        }
 
-        public  double getBonificacao()
-        {
-            return salario * 0.5;
-        }*/
+        /* public diretor(string cpf) : base(cpf, 5000)
+         {
 
-       
+         }
+
+         public string senha { get; set; }
+
+         public override void AumentarSalario()
+         {
+             this.salario *= 1.15;
+         }
+
+         public bool Autenticar(string senha)
+         {
+             throw new NotImplementedException();
+         }
+
+         public  double getBonificacao()
+         {
+             return salario * 0.5;
+         }*/
+
+
 
 
     }

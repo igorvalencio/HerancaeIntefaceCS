@@ -3,22 +3,29 @@ using ByteBank_ADM.ParceiroComercial;
 using ByteBank_ADM.SistemaInterno;
 using ByteBank_ADM.Utilitario;
 
-Funcionario joao = new Funcionario();
-joao.nome = "João";
-joao.cpf = "234523423";
-joao.salario = 2000;
-Console.WriteLine(joao.getBonificacao());
+//Funcionario joao = new Funcionario("234523423");
+//joao.nome = "João";
+//joao.salario = 2000;
+//Console.WriteLine(joao.getBonificacao());
 
-diretor paula = new diretor();
-paula.nome = "Paula";
-paula.cpf = "832321151";
-paula.salario = 5000;
-Console.WriteLine(paula.getBonificacao());
+//diretor paula = new diretor("832321151");
+//paula.nome = "Paula";
+//paula.salario = 5000;
+//Console.WriteLine(paula.getBonificacao());
 
-GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
-gerenciador.registrar(joao);
-gerenciador.registrar(paula);
-Console.WriteLine(gerenciador.TotalBonificacao);
+//GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+//gerenciador.registrar(joao);
+//gerenciador.registrar(paula);
+
+//Console.WriteLine("Total de bonificação: " + gerenciador.TotalBonificacao);
+//Console.WriteLine("Total de funcionarios: " + Funcionario.TotaldeFuncionarios);
+
+//joao.AumentarSalario();
+//paula.AumentarSalario();
+//Console.WriteLine("Novo salário Pedro: " + joao.salario);
+//Console.WriteLine("Novo salário Paula: " + paula.salario);
+
+
 
 
 

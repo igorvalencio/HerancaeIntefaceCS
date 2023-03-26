@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-    public class GerenteDeContas : FuncionarioAutenticavel
+    /*public class GerenteDeContas : FuncionarioAutenticavel
     {
-        /*public GerenteDeContas(string cpf) : base(cpf, 2000)
+        public GerenteDeContas(string cpf) : base(cpf, 2000)
         {
 
         }
@@ -29,5 +29,5 @@ namespace ByteBank_ADM.Funcionarios
             return this.senha == senha;
         }
         */
-    }
 }
+
