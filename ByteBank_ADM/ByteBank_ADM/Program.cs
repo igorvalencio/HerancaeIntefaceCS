@@ -29,6 +29,19 @@ using ByteBank_ADM.Utilitario;
 
 
 
+void CalcularBonificacao()
+{
+    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+    diretor jonas = new diretor("200114444", 30000);
+    Console.WriteLine("salario do Jonas: " + jonas.salario);
+
+
+}
+
+
+
+
+
 //funcionario andre = new diretor("5552612", 10000);
 //andre.nome = "André";
 //Console.WriteLine("Salário André: " + andre.salario);

@@ -9,15 +9,22 @@ namespace ByteBank_ADM.Funcionarios
 {
     public class diretor : Funcionario
     {
+        public diretor(string cpf, double salario) : base(cpf, salario)
+        {
+            this.salario = salario;
+        }
 
         public override double getBonificacao()
         {
             return this.salario * 1.10;
         }
-        public diretor(string cpf) : base(cpf)
+
+        public override void AumentarSalario()
         {
-            
+            this.salario *= 1.15;
         }
+
+       
 
 
 
