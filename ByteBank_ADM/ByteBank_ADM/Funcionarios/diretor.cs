@@ -9,7 +9,7 @@ namespace ByteBank_ADM.Funcionarios
 {
     public class diretor : Funcionario
     {
-        public diretor(string cpf, double salario) : base(cpf, 5000)
+        public diretor(string cpf) : base(cpf, 5000)
         {
             this.salario = salario;
         }

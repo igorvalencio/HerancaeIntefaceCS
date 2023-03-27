@@ -8,7 +8,7 @@ namespace ByteBank_ADM.Funcionarios
 {
     public class designer : Funcionario
     {
-        public designer(string cpf) : base(cpf, 3000)
+        public designer(string cpf) : base("000222111", 3000)
         {
 
         }

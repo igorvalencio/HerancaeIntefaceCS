@@ -4,10 +4,10 @@ using ByteBank_ADM.SistemaInterno;
 using ByteBank_ADM.Utilitario;
 
 
-
-diretor paula = new diretor("832321151", 5000);
-paula.nome = "Paula";
-Console.WriteLine(paula.getBonificacao());
+#region
+//diretor paula = new diretor("832321151", 5000);
+//paula.nome = "Paula";
+//Console.WriteLine(paula.getBonificacao());
 
 //GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 //gerenciador.registrar(joao);
@@ -20,12 +20,6 @@ Console.WriteLine(paula.getBonificacao());
 //paula.AumentarSalario();
 //Console.WriteLine("Novo salário Pedro: " + joao.salario);
 //Console.WriteLine("Novo salário Paula: " + paula.salario);
-
-
-
-
-
-
 
 //funcionario andre = new diretor("5552612", 10000);
 //andre.nome = "André";
@@ -67,4 +61,33 @@ Console.WriteLine(paula.getBonificacao());
 
 
 //Console.ReadKey();
+#endregion
 
+CalcularBonificacao();
+void CalcularBonificacao()
+{
+    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+
+    designer designer1 = new designer("0021548");
+    designer1.nome = "designer1";
+
+    diretor diretor1 = new diretor("0021333");
+    diretor1.nome = "diretor1";
+
+    auxiliar auxiliar1 = new auxiliar("0332221");
+    auxiliar1.nome = "auxiliar1";
+
+    GerenteDeContas gerente1 = new GerenteDeContas("02321654");
+    gerente1.nome = "gerente1";
+
+    gerenciador.registrar(gerente1);
+    gerenciador.registrar(diretor1);
+    gerenciador.registrar(auxiliar1);
+    gerenciador.registrar(designer1);
+
+    Console.WriteLine("Total de bonificação: " + gerenciador.TotalBonificacao);
+
+
+
+
+}
