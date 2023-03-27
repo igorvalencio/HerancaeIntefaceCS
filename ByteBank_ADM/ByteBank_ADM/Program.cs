@@ -3,15 +3,11 @@ using ByteBank_ADM.ParceiroComercial;
 using ByteBank_ADM.SistemaInterno;
 using ByteBank_ADM.Utilitario;
 
-//Funcionario joao = new Funcionario("234523423");
-//joao.nome = "João";
-//joao.salario = 2000;
-//Console.WriteLine(joao.getBonificacao());
 
-//diretor paula = new diretor("832321151");
-//paula.nome = "Paula";
-//paula.salario = 5000;
-//Console.WriteLine(paula.getBonificacao());
+
+diretor paula = new diretor("832321151", 5000);
+paula.nome = "Paula";
+Console.WriteLine(paula.getBonificacao());
 
 //GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 //gerenciador.registrar(joao);
@@ -26,17 +22,6 @@ using ByteBank_ADM.Utilitario;
 //Console.WriteLine("Novo salário Paula: " + paula.salario);
 
 
-
-
-
-void CalcularBonificacao()
-{
-    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
-    diretor jonas = new diretor("200114444", 30000);
-    Console.WriteLine("salario do Jonas: " + jonas.salario);
-
-
-}
 
 
 

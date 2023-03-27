@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank_ADM.Funcionarios
 {
-   /* public class auxiliar : Funcionario
+    public class auxiliar : Funcionario
     {
         public auxiliar(string cpf) : base(cpf, 2000)
         {
@@ -15,12 +15,12 @@ namespace ByteBank_ADM.Funcionarios
 
         public override void AumentarSalario()
         {
-            salario *= 0.5;
+            salario *= 0.10;
         }
         public override double getBonificacao()
         {
-            return salario * 0.25;
+            return salario * 0.2;
         }
-        */
+    }  
     
 }
